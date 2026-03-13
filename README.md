@@ -84,12 +84,12 @@ let VAR_exemplo_02 = 55 /* Correto */
 
 1.  Somente pode ser feita com os colegas do grupo de Projeto Integrado
 2.  No mínimo 2 pessoas por computador, no máximo 3 (exceto em caso de faltas)
-3.  Cada exercício tem a seguinte estrutura:
-        - Um resumo do assunto daquele exercício
-        - Instruções de como responder as perguntas
-        - Informação da quantidade mínima de perguntas para a nota máxima 
-          naquele exercício
-        - Os exercícios
+3.  Cada exercício tem a seguinte estrutura:  
+        - Um resumo do assunto daquele exercício  
+        - Instruções de como responder as perguntas  
+        - Informação da quantidade mínima de perguntas para a nota máxima  
+          naquele exercício  
+        - Os exercícios  
 4.  Sigam as instruções do que modificar ***e*** não modificar ***a risca***
 5.  Vocês podem testar o código de vocês em qualquer momento
 6.  O tempo para responder as questões se encerra 15 minutos antes do final da aula

@@ -1,4 +1,4 @@
-# Atividade 01 - Variáveis
+# Atividade
 
 As atividades deste módulo dizem respeito a variáveis em JavaScript. Sigam as instruções abaixo para a realização das atividades:
 

@@ -112,10 +112,17 @@ segundo item que estava guardado na variável temporária.
 
 Jeito 2:
 const minhaLista = ["item 1", "2º item", "3º", "item quatro", "item nº 5"]
-[ minhaLista[2], minhaLista[4] ] = [ minhaLista[4], minhaLista[2] ]
+;[ minhaLista[2], minhaLista[4] ] = [ minhaLista[4], minhaLista[2] ]
+
+DETALHE IMPORTANTE: O ponto e vírgula no começo da linha é obrigatório.
+                    O motivo é que sem o ponto e vírgula, o JavaScript interpreta
+                    que a linha anterior não foi concluída para este caso específico
+                    pois a sintaxe fica ambígua (JavaScript ignora espaços e 
+                    separação de linhas quando é executado).
 
 Resultado da lista:
 ["item 1", "2º item", "item nº 5", "item quatro", "3º"]
+
 
 Explicação: JavaScript permite atribuir múltiplos valores a múltiplas variáveis,
 mas para que isso funcione é necessário utilizar uma sintaxe chamada "desestruturação":

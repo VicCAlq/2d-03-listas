@@ -151,7 +151,7 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta01 = false
-
+const frutas = []
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
 o último item da lista. Use a propriedade "length" para auxiliar a encontrar

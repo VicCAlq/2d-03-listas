@@ -148,10 +148,9 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 "uva", "pêra", "manga". Armazene na variável "resposta01" o segundo item dessa lista.
 */
 // Array na linha abaixo
-
+const frutas = ["maçã","banana","laranja","uva","pera","manga"]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta01 = false
-
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
 o último item da lista. Use a propriedade "length" para auxiliar a encontrar

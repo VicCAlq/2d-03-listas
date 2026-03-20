@@ -120,8 +120,10 @@ envie a lista com as profissões adicionadas na resposta01.
 */
 // Array na linha abaixo
 
+let profissoes= []
+
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta01 = false
+export const resposta01 = caches
 
 /* Questão 2
 Continuando com a lista de profissões da questão 1, use o método pop para remover

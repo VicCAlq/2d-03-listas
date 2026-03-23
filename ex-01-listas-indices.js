@@ -158,28 +158,31 @@ o último item da lista. Use a propriedade "length" para auxiliar a encontrar
 o índice deste último item.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta02 = false
+export const resposta02 = frutas[frutas.length - 1]
 
 /* Questão 3
 Continuando com o array criado na questão 1, altere o quarto item da lista para
 a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta03 = false
+export const resposta03 = frutas[3] = "abacaxi"
 
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
 envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta04 = false
+export const resposta04 = frutas.push("limão")
 
 /* Questão 5
 Para finalizar com o array da questão 1, troque as posições dos itens "laranja"
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta05 = false
+const aux = frutas[2]
+frutas[2] = frutas[5]
+frutas[5] = aux
+export const resposta05 = frutas
 
 /* Questão 6
 Crie um array (também com const ao invés de let) chamado "numeros" com os valores
@@ -189,7 +192,9 @@ número no índice zero multiplicado pelo item no penúltimo índice.
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta06 = false
+const numeros = [7, 2, 4, 9, 8, 6, 1]
+const result1 = numeros[0] * numeros[numeros.length - 2]
+export const resposta06 = result1
 
 /* Questão 7
 Seguindo com a lista criada na questão 7, utilizando os índices de cada item,

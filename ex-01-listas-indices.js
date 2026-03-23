@@ -173,7 +173,9 @@ Continuando com o array criado na questão 1, altere o quarto item da lista para
 a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta03 = frutas[3] = "abacaxi"
+export const resposta03 = false
+
+frutas[3] = "abacaxi"
 
 console.log(frutas)
 
@@ -182,7 +184,9 @@ Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, 
 envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta04 = frutas[5] = limão
+export const resposta04 = false
+
+frutas.push["limão"]
 
 console.log(frutas)
 
@@ -225,6 +229,10 @@ variável "resultado08". É proibido usar métodos de listas e funções.
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta08 = false
 
+frutas.push[numeros[0] + numeros[1] + numeros[2]+ numeros[3] + numeros[4] + numeros [5] + numeros[6]]
+
+console.log(numeros)
+
 /* Questão 9
 Ainda com a lista da questão 7, mude:
 - O segundo item para a quarta posição
@@ -233,7 +241,13 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+export const resposta09 = numeros[1]
+
+numeros[1] = numeros[3]
+numeros[3] = numeros[5]
+numeros[5] = resposta09
+ 
+console.log(numeros)
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:

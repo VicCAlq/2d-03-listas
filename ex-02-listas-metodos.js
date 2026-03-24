@@ -196,9 +196,9 @@ fiquem na frente dos animais inicialmente pertencentes a lista de "vertebrados".
 Envie a lista animais modificada na resposta08.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-animalTres = animais.pop()
-animalDois = animais.pop()
-animalUm = animais.pop()
+let animalTres = animais.pop()
+let animalDois = animais.pop()
+let animalUm = animais.pop()
 animais.unshift(animalUm, animalDois, animalTres)
 export const resposta08 = console.log(animais)
 
@@ -209,9 +209,9 @@ o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 animais.reverse()
-animalUm = animais.shift()
-animalDois = animais.shift()
-animalTres = animais.shift()
+let animalUm = animais.shift()
+let animalDois = animais.shift()
+let animalTres = animais.shift()
 animais.push(animalUm)
 animais.push(animalDois)
 animais.push(animalTres)
@@ -264,9 +264,9 @@ primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-pedraUm = pedras.shift()
-pedraDois = pedras.shift()
-pedraTres = pedras.shift()
+let pedraUm = pedras.shift()
+let pedraDois = pedras.shift()
+let pedraTres = pedras.shift()
 pedras.push(pedraUm, pedraDois, pedraTres)
 pedras.reverse()
 export const resposta13 = console.log(pedras)
@@ -276,12 +276,12 @@ Finalizando com a lista de pedras, use o método pop para remover os 6 itens fin
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-pedraNovaSeis = pedras.pop()
-pedraNovaCinco = pedras.pop()
-pedraNovaQuatro = pedras.pop()
-pedraNovaTres = pedras.pop()
-pedraNovaDois = pedras.pop()
-pedraNovaUm = pedras.pop()
+let pedraNovaSeis = pedras.pop()
+let pedraNovaCinco = pedras.pop()
+let pedraNovaQuatro = pedras.pop()
+let pedraNovaTres = pedras.pop()
+let pedraNovaDois = pedras.pop()
+let pedraNovaUm = pedras.pop()
 let novasPedras = [pedraNovaUm, pedraNovaDois, pedraNovaTres, pedraNovaQuatro, pedraNovaCinco, pedraNovaSeis]
 export const resposta14 = console.log(novasPedras)
 

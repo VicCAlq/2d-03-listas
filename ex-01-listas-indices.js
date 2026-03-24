@@ -204,11 +204,11 @@ variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
 temp = numeros[6]
-tempDois = numeros[5]
-tempTres = numeros[4]
-tempQuatro = numeros[3]
-tempCinco = numeros[2]
-tempSeis = numeros[1]
+let tempDois = numeros[5]
+let tempTres = numeros[4]
+let tempQuatro = numeros[3]
+let tempCinco = numeros[2]
+let tempSeis = numeros[1]
 numeros[1] = numeros[0]
 numeros[0] = temp
 numeros[2] = tempSeis
@@ -250,7 +250,7 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
-novaLista = [numeros[numeros.length - 1], numeros[numeros.length - 2], numeros[numeros.length - 3]]
+const novaLista = [numeros[numeros.length - 1], numeros[numeros.length - 2], numeros[numeros.length - 3]]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta10 = console.log(novaLista)
 

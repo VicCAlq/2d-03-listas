@@ -148,7 +148,7 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 "uva", "pêra", "manga". Armazene na variável "resposta01" o segundo item dessa lista.
 */
 // Array na linha abaixo
-const frutas = ["maçã","banana","laranja","uva","pera","manga"]
+let frutas = ["maçã","banana","laranja","uva","pera","manga"]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta01 = frutas[1]
 
@@ -191,7 +191,7 @@ Crie um array (também com const ao invés de let) chamado "numeros" com os valo
 número no índice zero multiplicado pelo item no penúltimo índice.
 */
 // Array na linha abaixo
-const numeros = [7, 2, 4, 9, 8, 6, 1]
+let numeros = [7, 2, 4, 9, 8, 6, 1]
 // Operações necessárias e resposta a partir da linha abaixo
 
 const result1 = numeros[0] * numeros[numeros.length - 2]
@@ -220,7 +220,9 @@ da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta08 = false
+let result2 = numeros[0] + numeros[1] + numeros[2] + numeros[3] + numeros[4] + numeros[5] + numeros[6]
+numeros[numeros.length] = result2
+export const resposta08 = numeros
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:

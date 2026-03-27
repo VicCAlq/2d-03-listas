@@ -1,4 +1,4 @@
-| Questão | Exercício | Entregue | Correto | Mensagem de erro |
+| Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 | ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Parse failure: Legacy octal escape is not permitted in strict mode
 At file: /ex-01-listas-indices.js:153:33 |

@@ -1,51 +1,51 @@
-| Aluno | Total de acertos | Nota total |
-|-------|------------------|------------|
+| Aluno | Qtd. questões acertadas (de 17) | Nota total |
+|-------|---------------------------------|------------|
+| Heytor Eloy | 0.000000 | 0.000000 |
 | Arthur Felipe | 0.000000 | 0.000000 |
-| Thiago Barbosa | 0.000000 | 0.000000 |
-| Viktor Phorely Diaz | 0.000000 | 0.000000 |
-| Gabriel Tavares | 0.000000 | 0.000000 |
-| Gabriel Cavalcanti | 0.000000 | 0.000000 |
-| Breno Cavalcanti | 0.000000 | 0.000000 |
-| Gustavo Henrique | 0.000000 | 0.000000 |
-| Caio Brandao | 0.000000 | 0.000000 |
-| Adriano Filipe | 0.000000 | 0.000000 |
-| Vinicyus Eduardo | 0.000000 | 0.000000 |
-| Caua Rafael | 0.000000 | 0.000000 |
-| Arthur Amorim | 0.000000 | 0.000000 |
-| Samuel Assuncao | 0.000000 | 0.000000 |
-| Wesley Eder | 0.000000 | 0.000000 |
-| Bianca Beatriz | 0.000000 | 0.000000 |
-| Gabriel Leal | 0.000000 | 0.000000 |
-| Arthur Amorim | 0.000000 | 0.000000 |
-| Gabriel Cavalcanti | 0.000000 | 0.000000 |
-| Miguel Angelo | 0.000000 | 0.000000 |
-| André Ricardo | 0.000000 | 0.000000 |
-| Yasmin Rocha | 0.000000 | 0.000000 |
-| Emilly Maciel | 0.000000 | 0.000000 |
-| Waldemir ViegasAlt | 0.000000 | 0.000000 |
+| André Ricardo | 3.200000 | 18.823529 |
+| Jailson Ferreira | 0.000000 | 0.000000 |
+| Clarice Vitoria | 0.000000 | 0.000000 |
 | Rianna Lavinia | 0.000000 | 0.000000 |
-| Jennifer Marielle | 0.000000 | 0.000000 |
-| Samuel Lindoso | 0.000000 | 0.000000 |
-| Sophia Goes | 0.000000 | 0.000000 |
+| Pedro Carvalho | 8.200000 | 48.235294 |
+| Bianca Beatriz | 0.000000 | 0.000000 |
+| Brendha Priscilla | 0.000000 | 0.000000 |
+| Sophia Goes | 0.200000 | 1.176471 |
+| João Gomes | 4.000000 | 23.529412 |
+| Bernardo Cavalcanti | 4.600000 | 27.058824 |
+| Thiago Barbosa | 3.400000 | 20.000000 |
 | Arthur Machado | 0.000000 | 0.000000 |
+| Adriano Filipe | 1.400000 | 8.235294 |
+| Yasmin Rocha | 0.000000 | 0.000000 |
+| Wesley Eder | 0.000000 | 0.000000 |
+| Waldemir ViegasAlt | 3.000000 | 17.647059 |
+| Imael Isaque | 0.000000 | 0.000000 |
+| Vinicyus Eduardo | 0.000000 | 0.000000 |
+| Viktor Phorely Diaz | 0.000000 | 0.000000 |
+| Maria Helena | 0.000000 | 0.000000 |
+| Bernardo Cavalcanti | 0.000000 | 0.000000 |
+| Breno Costa | 0.000000 | 0.000000 |
+| Gabriel Cavalcanti | 0.000000 | 0.000000 |
+| Gustavo Henrique | 0.000000 | 0.000000 |
+| Barbara Antão | 0.000000 | 0.000000 |
+| Michel Nascimento Nave | 0.000000 | 0.000000 |
+| Matheus Guilherme | 0.000000 | 0.000000 |
+| Samuel Lindoso | 0.000000 | 0.000000 |
+| Gabriel Leal | 5.000000 | 29.411765 |
+| Breno Cavalcanti | 0.000000 | 0.000000 |
+| Caua Rafael | 0.000000 | 0.000000 |
+| Caio Brandao | 0.000000 | 0.000000 |
 | Luanna Carla | 0.000000 | 0.000000 |
 | Kaique Alex | 0.000000 | 0.000000 |
-| Michel Nascimento Nave | 0.000000 | 0.000000 |
-| Caio BrandaoCbs | 0.000000 | 0.000000 |
-| Maria Helena | 0.000000 | 0.000000 |
-| Pedro Carvalho | 0.000000 | 0.000000 |
+| Arthur Amorim | 1.600000 | 9.411765 |
 | Lívia Barros | 0.000000 | 0.000000 |
 | Kaylane Marinho | 0.000000 | 0.000000 |
-| Barbara Antão | 0.000000 | 0.000000 |
-| Bernardo Cavalcanti | 0.000000 | 0.000000 |
-| João Gomes | 0.000000 | 0.000000 |
-| Clarice Vitoria | 0.000000 | 0.000000 |
-| Jailson Ferreira | 0.000000 | 0.000000 |
-| Imael Isaque | 0.000000 | 0.000000 |
-| Breno Costa | 0.000000 | 0.000000 |
-| Heytor Eloy | 0.000000 | 0.000000 |
-| David Luduvico | 0.000000 | 0.000000 |
-| Davi Emmanuel | 0.000000 | 0.000000 |
-| Matheus Guilherme | 0.000000 | 0.000000 |
-| Brendha Priscilla | 0.000000 | 0.000000 |
-| Bernardo Cavalcanti | 0.000000 | 0.000000 |
+| Miguel Angelo | 0.000000 | 0.000000 |
+| Arthur Amorim | 0.000000 | 0.000000 |
+| Jennifer Marielle | 0.000000 | 0.000000 |
+| Gabriel Tavares | 4.400000 | 25.882353 |
+| David Luduvico | 3.000000 | 17.647059 |
+| Davi Emmanuel | 4.400000 | 25.882353 |
+| Gabriel Cavalcanti | 0.000000 | 0.000000 |
+| Caio BrandaoCbs | 0.000000 | 0.000000 |
+| Emilly Maciel | 1.000000 | 5.882353 |
+| Samuel Assuncao | 4.400000 | 25.882353 |

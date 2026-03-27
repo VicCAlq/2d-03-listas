@@ -165,7 +165,8 @@ Continuando com o array criado na questão 1, altere o quarto item da lista para
 a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta03 = frutas[3] = "abacaxi"
+frutas[3] = "abacaxi"
+export const resposta03 = frutas
 
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
@@ -190,9 +191,9 @@ Crie um array (também com const ao invés de let) chamado "numeros" com os valo
 número no índice zero multiplicado pelo item no penúltimo índice.
 */
 // Array na linha abaixo
-
-// Operações necessárias e resposta a partir da linha abaixo
 const numeros = [7, 2, 4, 9, 8, 6, 1]
+// Operações necessárias e resposta a partir da linha abaixo
+
 const result1 = numeros[0] * numeros[numeros.length - 2]
 export const resposta06 = result1
 

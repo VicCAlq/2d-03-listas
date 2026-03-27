@@ -1,4 +1,17 @@
-| Questão | Exercício | Entregue | Correto | Mensagem de erro |
+| Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 | ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | length is not defined |
-| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | caches is not defined |
+|  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  2 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'string' |
+|  3 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'string' |
+|  5 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  9 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 10 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 11 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 12 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 13 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 14 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |

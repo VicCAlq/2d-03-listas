@@ -241,13 +241,13 @@ E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
 
-let numerop1= numeros[1]
-let numerop3= numeros[3]
-let numerop5= numeros[5]
+let numeroPUm= numeros[1]
+let numeroPTres= numeros[3]
+let numeroPCinco= numeros[5]
 
-numeros[1] = numerop5
-numeros[3] = numerop1
-numeros[5] = numerop3
+numeros[1] = numeroPCinco
+numeros[3] = numeroPUm
+numeros[5] = numeroPTres
 
 export const resposta09 = numeros
 

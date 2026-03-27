@@ -150,7 +150,8 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta01 = false
+const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
+export const resposta01 = frutas[1] 
 
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
@@ -158,21 +159,23 @@ o último item da lista. Use a propriedade "length" para auxiliar a encontrar
 o índice deste último item.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta02 = false
+export const resposta02 = frutas[frutas.length - 1]
 
 /* Questão 3
 Continuando com o array criado na questão 1, altere o quarto item da lista para
 a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta03 = false
+export const resposta03 = frutas[3] = "abacaxi";
+export const resposta03 = frutas;
 
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
 envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta04 = false
+export const resposta04 = frutas.push ("limão")
+export const resposta04 = frutas;
 
 /* Questão 5
 Para finalizar com o array da questão 1, troque as posições dos itens "laranja"
@@ -180,6 +183,7 @@ e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta05 = false
+
 
 /* Questão 6
 Crie um array (também com const ao invés de let) chamado "numeros" com os valores
@@ -189,8 +193,8 @@ número no índice zero multiplicado pelo item no penúltimo índice.
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta06 = false
-
+const numeros = [7, 2, 4, 9, 8, 6,];
+export const resposta06 = numeros[0] * numeros[4]
 /* Questão 7
 Seguindo com a lista criada na questão 7, utilizando os índices de cada item,
 avance eles em uma posição (e mande o último item para a primeira posição),
@@ -198,7 +202,7 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta07 = false
+export const resposta07 = [numeros [5], numeros[0], numeros[1], numeros[2], numeros[3], numeros [4]];
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado

@@ -121,15 +121,20 @@ envie a lista com as profissões adicionadas na resposta01.
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta01 = false
+let profissoes = []
+profissoes.push( "programador(a)", "designer",
+"engenheiro(a)", "veterinário(a)" , "administrador(a)")
 
+export const resposta01 = profissoes
 /* Questão 2
 Continuando com a lista de profissões da questão 1, use o método pop para remover
 o último item da lista e armazená-lo em uma variável. Envie esta variável na
 resposta02.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta02 = false
+let temp = profissoes. pop()
+
+export const resposta02 = temp 
 
 /* Questão 3
 Seguindo com a mesma lista de profissões da questão 1, use o método unshift
@@ -137,7 +142,9 @@ para adicionar a profissão "músico(a)" no início da lista, e retorne
 a lista completa na resposta03.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta03 = false
+profissoes.unshift("músico(a)")
+
+export const resposta03 = profissoes 
 
 /* Questão 4
 Ainda com a lista da questão 1, crie uma nova variável e use o método "shift" 
@@ -145,7 +152,9 @@ na lista de profissões para remover o atual primeiro item da lista e guardá-lo
 nesta variável. Envie a variável com a profissão removida na resposta04.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta04 = false
+let primeriprofissao = profissoes.shift()
+
+export const resposta04 = primeiraprofissao
 
 /* Questão 5
 Continuando com a lista da questão 1, crie uma lista com as profissões removidas
@@ -154,7 +163,7 @@ método "concat" na lista de profissões para adicionar esta nova lista no final
 da lista de profissões da questão 1. Envie a lista completa na resposta05
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta05 = false
+let profissoesRemovidas = ["administrador(a)"]
 
 /* Questão 6
 Finalizando com a lista da questão 1, use nela o método reverse para inverter

@@ -1,4 +1,4 @@
-Data de execução do teste: sex 27 mar 2026 13:59:19 -03
+Data de execução do teste: sex 27 mar 2026 16:11:01 -03
 
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
@@ -8,8 +8,8 @@ Data de execução do teste: sex 27 mar 2026 13:59:19 -03
 |  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  6 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  7 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  9 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 | 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |

@@ -150,7 +150,7 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta01 = false
+export const resposta01 = sdadadsas
 
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
@@ -160,7 +160,7 @@ o índice deste último item.
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta02 = false
 
-/* Questão 3
+/* Questão 3d
 Continuando com o array criado na questão 1, altere o quarto item da lista para
 a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
 */

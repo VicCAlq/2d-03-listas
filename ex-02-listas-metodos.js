@@ -134,8 +134,8 @@ o último item da lista e armazená-lo em uma variável. Envie esta variável na
 resposta02.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-profissoes.pop()
-export const resposta02 = profissoes
+let a = profissoes.unshift(profissoes.pop())
+export const resposta02 = a
 
 /* Questão 3
 Seguindo com a mesma lista de profissões da questão 1, use o método unshift
@@ -282,6 +282,13 @@ Finalizando com a lista de pedras, use o método pop para remover os 6 itens fin
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
+let excluiPedras=[]
+excluiPedras.push(pedras.pop())
+excluiPedras.push(pedras.pop())
+excluiPedras.push(pedras.pop())
+excluiPedras.push(pedras.pop())
+excluiPedras.push(pedras.pop())
+excluiPedras.push(pedras.pop())
 
-export const resposta14 = false
+export const resposta14 = excluiPedras
 

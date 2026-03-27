@@ -232,6 +232,9 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
+let one = numeros[1]
+let two = numeros[3]
+let treix = numeros[5]
 export const resposta09 = false
 
 /* Questão 10

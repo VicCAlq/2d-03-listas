@@ -211,7 +211,7 @@ numeros[3] = numeros[2]
 numeros[2] = numeros[1]
 numeros[1] = numeros[0]
 numeros[0] = ultimo
-export const resposta07 = false
+export const resposta07 = numeros
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado

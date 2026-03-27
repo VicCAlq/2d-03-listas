@@ -185,9 +185,11 @@ Para finalizar com o array da questão 1, troque as posições dos itens "laranj
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-frutas
+let temp = frutas[2]
+frutas[5] = frutas[2]
+frutas[2] = temp
 
-export const resposta05 = false
+export const resposta05 = frutas
 
 /* Questão 6
 Crie um array (também com const ao invés de let) chamado "numeros" com os valores
@@ -197,7 +199,13 @@ número no índice zero multiplicado pelo item no penúltimo índice.
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta06 = false
+numeros[7, 2, 4, 9, 8, 6, 1]
+
+let temp = numeros[0] * numeros[6]
+numeros[0] = temp
+
+
+export const resposta06 = numeros
 
 /* Questão 7
 Seguindo com a lista criada na questão 7, utilizando os índices de cada item,

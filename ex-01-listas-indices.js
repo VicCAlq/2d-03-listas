@@ -235,7 +235,10 @@ E retorne a lista completa na variável "resultado09"
 let one = numeros[1]
 let two = numeros[3]
 let treix = numeros[5]
-export const resposta09 = false
+numeros[3] = one
+numeros[5] = two
+numeros[1] = treix
+export const resposta09 = numeros
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
@@ -244,7 +247,7 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
-
+let lixta = [numeros[numeros.length - 1], numeros[numeros.length - 2], numeros[numeros.length - 3]]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+export const resposta10 = lixta
 

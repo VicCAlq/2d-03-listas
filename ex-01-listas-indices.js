@@ -148,7 +148,7 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 "uva", "pêra", "manga". Armazene na variável "resposta01" o segundo item dessa lista.
 */
 // Array na linha abaixo
-let frutas = ["maçã","banana","laranja","uva","pera","manga"]
+const frutas = ["maçã","banana","laranja","uva","pera","manga"]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta01 = frutas[1]
 

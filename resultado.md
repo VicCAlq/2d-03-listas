@@ -1,10 +1,18 @@
-Data de execução do teste: sex 27 mar 2026 16:12:35 -03
-
+Data de atualização: Dia 29/03/2026 às 20:13:00
+ 
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Parse failure: Legacy octal escape is not permitted in strict mode
-At file: /ex-01-listas-indices.js:153:33 |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ❌ | AssertionError: expected undefined to be type of 'string' |
+|  3 | Ex 01 | ✅ | ❌ | AssertionError: expected 'abacaxi' to be type of 'object' |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 01 | ✅ | ❌ | AssertionError: expected 37 to be type of 'object' |
+|  9 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  2 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  3 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |

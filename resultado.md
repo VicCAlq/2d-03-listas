@@ -1,18 +1,9 @@
-Data de execução do teste: sex 27 mar 2026 16:13:27 -03
-
+Data de atualização: Dia 29/03/2026 às 20:14:18
+ 
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  4 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  5 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  6 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  7 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  9 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | multiplicacao is not defined |
 |  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  2 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  3 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |

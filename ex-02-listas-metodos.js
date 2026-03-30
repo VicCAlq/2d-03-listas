@@ -123,7 +123,7 @@ let profissoes = []
 // Operações necessárias e resposta a partir da linha abaixo
 profissoes.push("programador(a)", "designer",
 "engenheiro(a)", "veterinário(a)", "administrador(a)")
-export const resposta01 = console.log(profissoes)
+export const resposta01 = profissoes
 
 /* Questão 2
 Continuando com a lista de profissões da questão 1, use o método pop para remover
@@ -141,7 +141,7 @@ a lista completa na resposta03.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 profissoes.unshift("músico(a)")
-export const resposta03 = console.log(profissoes)
+export const resposta03 = profissoes
 
 /* Questão 4
 Ainda com a lista da questão 1, crie uma nova variável e use o método "shift" 
@@ -161,7 +161,7 @@ da lista de profissões da questão 1. Envie a lista completa na resposta05
 // Operações necessárias e resposta a partir da linha abaixo
 let profissoesRemovidas = [profissaoRemovida, profissaoRemovidaComeco]
 profissoes = profissoes.concat(profissoesRemovidas)
-export const resposta05 = console.log(profissoes)
+export const resposta05 = profissoes
 
 /* Questão 6
 Finalizando com a lista da questão 1, use nela o método reverse para inverter
@@ -169,7 +169,7 @@ a ordem da lista, e envie a lista com sua ordem invertida na resposta06.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 profissoes.reverse()
-export const resposta06 = console.log(profissoes)
+export const resposta06 = profissoes
 
 /* Questão 7
 Crie três listas vazias (usando let e não const), uma chamada "vertebrados", 
@@ -187,7 +187,7 @@ let animais = []
 vertebrados.push("elefante", "leopardo", "porco-espinho")
 invertebrados.push("polvo", "formiga", "caranguejo")
 animais = animais.concat(vertebrados, invertebrados)
-export const resposta07 = console.log(animais)
+export const resposta07 = animais
 
 /* Questão 8
 Seguindo com a lista "animais" criada na questão 7, use os métodos pop e unshift
@@ -200,7 +200,7 @@ let animalTres = animais.pop()
 let animalDois = animais.pop()
 let animalUm = animais.pop()
 animais.unshift(animalUm, animalDois, animalTres)
-export const resposta08 = console.log(animais)
+export const resposta08 = animais
 
 /* Questão 9
 Ainda utilizando a lista "animais" da questão 7, use o método reverse na lista,
@@ -209,13 +209,13 @@ o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 animais.reverse()
-let animalUm = animais.shift()
-let animalDois = animais.shift()
-let animalTres = animais.shift()
+ animalUm = animais.shift()
+ animalDois = animais.shift()
+ animalTres = animais.shift()
 animais.push(animalUm)
 animais.push(animalDois)
 animais.push(animalTres)
-export const resposta09 = console.log(animais)
+export const resposta09 = animais
 
 /* Questão 10
 Finalizando com a lista "animais" da questão 7, use o método concat na lista
@@ -228,7 +228,7 @@ Envie a lista animais modificada na resposta10.
 animais = animais.concat(["carcará", "morcego", "salmão"])
 animais.reverse()
 animais = animais.concat(["lesma", "borboleta", "ostra"])
-export const resposta10 = console.log(animais)
+export const resposta10 = animais
 
 /* Questão 11
 Crie (usando let) uma lista vazia chamada "pedras", e use nela o método concat
@@ -243,7 +243,7 @@ pedras = pedras.concat(["quartzo", "basalto", "granito"])
 pedras.reverse()
 pedras.push("calcário", "mármore", "mica")
 pedras.reverse()
-export const resposta11 = console.log(pedras)
+export const resposta11 = pedras
 
 /* Questão 12
 Continuando com a lista criada na questão 11, use o método unshift para adicionar
@@ -256,7 +256,7 @@ pedras.unshift("zircônio")
 pedras.unshift("obsidiana")
 pedras.unshift("jade")
 pedras = pedras.concat(["topázio", "lazurita", "ônix"])
-export const resposta12 = console.log(pedras)
+export const resposta12 = pedras
 
 /* Questão 13
 Seguindo com a lista de pedras, use os métodos shift e pop para mover os três
@@ -269,7 +269,7 @@ let pedraDois = pedras.shift()
 let pedraTres = pedras.shift()
 pedras.push(pedraUm, pedraDois, pedraTres)
 pedras.reverse()
-export const resposta13 = console.log(pedras)
+export const resposta13 = pedras
 
 /* Questão 14
 Finalizando com a lista de pedras, use o método pop para remover os 6 itens finais
@@ -283,5 +283,5 @@ let pedraNovaTres = pedras.pop()
 let pedraNovaDois = pedras.pop()
 let pedraNovaUm = pedras.pop()
 let novasPedras = [pedraNovaUm, pedraNovaDois, pedraNovaTres, pedraNovaQuatro, pedraNovaCinco, pedraNovaSeis]
-export const resposta14 = console.log(novasPedras)
+export const resposta14 = novasPedras
 

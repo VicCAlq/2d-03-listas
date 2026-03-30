@@ -166,7 +166,7 @@ a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova f
 */
 // Operações necessárias e resposta a partir da linha abaixo
 frutas[3] = "abacaxi"
-export const resposta03 = console.log(frutas) 
+export const resposta03 = frutas 
 
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
@@ -174,7 +174,7 @@ envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
 frutas[frutas.length] = "limão"
-export const resposta04 = console.log(frutas)
+export const resposta04 = frutas
 
 /* Questão 5
 Para finalizar com o array da questão 1, troque as posições dos itens "laranja"
@@ -184,7 +184,7 @@ e "manga", e armazene a lista modificada completa na variável "resposta05".
 let temp = frutas[2] 
 frutas[2] = frutas[5]
 frutas[5] = temp
-export const resposta05 = console.log(frutas)
+export const resposta05 = frutas
 
 /* Questão 6
 Crie um array (também com const ao invés de let) chamado "numeros" com os valores
@@ -216,7 +216,7 @@ numeros[3] = tempCinco
 numeros[4] = tempQuatro
 numeros[5] = tempTres
 numeros[6] = tempDois
-export const resposta07 = console.log(numeros)
+export const resposta07 = numeros
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
@@ -225,7 +225,7 @@ variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 numeros[numeros.length] = numeros[0] + numeros[1] + numeros[2] + numeros[3] + numeros[4] + numeros[5] + numeros[6]
-export const resposta08 = console.log(numeros)
+export const resposta08 = numeros
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:
@@ -241,7 +241,7 @@ tempTres = numeros[5]
 numeros[1] = tempTres
 numeros[3] = temp
 numeros[5] = tempDois
-export const resposta09 = console.log(numeros)
+export const resposta09 = numeros
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
@@ -252,5 +252,5 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 // Nova lista abaixo
 const novaLista = [numeros[numeros.length - 1], numeros[numeros.length - 2], numeros[numeros.length - 3]]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = console.log(novaLista)
+export const resposta10 = novaLista
 

@@ -1,6 +1,6 @@
 /*
 Assunto 01 - Listas e índices
-
+//
 Em quaisquer linguagens de programação nós encontramos o conceito de "Estruturas de dados":
 são formas diversas de organizar um conjunto de informações, sejam valores primitivos
 (como strings, números e booleanos), variáveis e constantes, e até mesmo valores mais

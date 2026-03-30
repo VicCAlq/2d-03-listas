@@ -199,7 +199,7 @@ número no índice zero multiplicado pelo item no penúltimo índice.
 const numeros = [7, 2, 4, 9, 8, 6, 1]
 
 // Operações necessárias e resposta a partir da linha abaixo
-multiplicacao = numeros[0] * numeros[numeros.length - 2]
+let multiplicacao = numeros[0] * numeros[numeros.length - 2]
 export const resposta06 = multiplicacao
 
 /* Questão 7
@@ -252,7 +252,14 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
+let novaLista = []
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+const ultimo = numeros.length - 1
+const penultimo = numeros.length - 2
+const antepenultimo = numeros.length - 3
+
+novaLista = [ultimo, penultimo, antepenultimo]
+
+export const resposta10 = novaLista
 

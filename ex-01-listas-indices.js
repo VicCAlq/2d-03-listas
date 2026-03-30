@@ -222,8 +222,9 @@ da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let soma = numeros[0] + numeros[1] + numeros[2] + numeros[3] + numeros[4] + numeros[5]+ numeros[6]
+let soma = numeros[0] + numeros[1] + numeros[2] + numeros[3] + numeros[4] + numeros[5] + numeros[6]
 export const resposta08 = soma
+
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:
@@ -233,7 +234,12 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+let varTemp = numeros[1]
+numeros[1] = numeros[3]
+numeros[3] = numeros[5]
+numeros[5] = varTemp
+
+export const resposta09 = numeros
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
@@ -242,7 +248,14 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
+let novaLista = []
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+const ultimo = numeros.length - 1
+const penultimo = numeros.length - 2
+const antepenultimo = numeros.length - 3
+
+novaLista = [ultimo, penultimo, antepenultimo]
+
+export const resposta10 = novaLista
 

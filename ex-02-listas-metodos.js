@@ -1,6 +1,6 @@
 /*
 Assunto 02 - Métodos de listas
-
+//
 Para além de manipulação direta de listas utilizando índices, podemos modificá-las
 de outras formas. Listas (também chamados de Arrays) são um tipo de "Objeto" para
 a linguagem JavaScript. Isso significa que para além do valor que atribuímos a elas,

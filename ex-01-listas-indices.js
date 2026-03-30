@@ -221,7 +221,9 @@ for (let i = 0; i < numeros.length; i++) {
   soma += numeros[i];
 }
 
-export const resposta08 = soma;
+numeros[numeros.length] = soma
+
+export const resposta08 = numeros;
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:

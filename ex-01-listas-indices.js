@@ -112,17 +112,10 @@ segundo item que estava guardado na variável temporária.
 
 Jeito 2:
 const minhaLista = ["item 1", "2º item", "3º", "item quatro", "item nº 5"]
-;[ minhaLista[2], minhaLista[4] ] = [ minhaLista[4], minhaLista[2] ]
-
-DETALHE IMPORTANTE: O ponto e vírgula no começo da linha é obrigatório.
-                    O motivo é que sem o ponto e vírgula, o JavaScript interpreta
-                    que a linha anterior não foi concluída para este caso específico
-                    pois a sintaxe fica ambígua (JavaScript ignora espaços e 
-                    separação de linhas quando é executado).
+[ minhaLista[2], minhaLista[4] ] = [ minhaLista[4], minhaLista[2] ]
 
 Resultado da lista:
 ["item 1", "2º item", "item nº 5", "item quatro", "3º"]
-
 
 Explicação: JavaScript permite atribuir múltiplos valores a múltiplas variáveis,
 mas para que isso funcione é necessário utilizar uma sintaxe chamada "desestruturação":
@@ -148,42 +141,37 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 "uva", "pêra", "manga". Armazene na variável "resposta01" o segundo item dessa lista.
 */
 // Array na linha abaixo
-
 // Operações necessárias e resposta a partir da linha abaixo
-const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"];
-export const resposta01 = frutas[1];
+export const resposta01 = false
+
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
 o último item da lista. Use a propriedade "length" para auxiliar a encontrar
 o índice deste último item.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta02 = frutas[frutas.length - 1];
+export const resposta02 = false
 
 /* Questão 3
 Continuando com o array criado na questão 1, altere o quarto item da lista para
 a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-frutas[3] = "abacaxi";
-export const resposta03 = frutas;
+export const resposta03 = false 
 
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
 envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-frutas[frutas.length] = "limão";
-export const resposta04 = frutas;
+export const resposta04 = false
+
 /* Questão 5
 Para finalizar com o array da questão 1, troque as posições dos itens "laranja"
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let tempFruta = frutas[2];
-frutas[2] = frutas[5];
-frutas[5] = tempFruta;
-export const resposta05 = frutas;
+export const resposta05 = false
 
 /* Questão 6
 Crie um array (também com const ao invés de let) chamado "numeros" com os valores
@@ -191,10 +179,8 @@ Crie um array (também com const ao invés de let) chamado "numeros" com os valo
 número no índice zero multiplicado pelo item no penúltimo índice.
 */
 // Array na linha abaixo
-
 // Operações necessárias e resposta a partir da linha abaixo
-const numeros = [7, 2, 4, 9, 8, 6, 1];
-export const resposta06 = numeros[0] * numeros[numeros.length - 2];
+export const resposta06 = false
 
 /* Questão 7
 Seguindo com a lista criada na questão 7, utilizando os índices de cada item,
@@ -203,12 +189,7 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let temp = numeros[numeros.length - 1]; 
-for (let i = numeros.length - 1; i > 0; i--) {
-    numeros[i] = numeros[i - 1]; 
-}
-numeros[0] = temp; 
-export const resposta07 = numeros;
+export const resposta07 = false
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
@@ -216,12 +197,7 @@ da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let soma = 0;
-for (let i = 0; i < numeros.length; i++) {
-    soma += numeros[i]; 
-}
-numeros[numeros.length] = soma; 
-export const resposta08 = numeros;
+export const resposta08 = false
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:
@@ -231,16 +207,7 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let temp1 = numeros[1]; 
-let temp2 = numeros[3]; 
-let temp3 = numeros[5]; 
-
-
-numeros[3] = temp1; 
-numeros[5] = temp2; 
-numeros[1] = temp3; 
-
-export const resposta09 = numeros;
+export const resposta09 = false
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
@@ -251,11 +218,5 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 // Nova lista abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-const listaQ7 = [1, 7, 2, 4, 9, 8, 6];
-const novaLista = [
-    listaQ7[6], // Último: 6
-    listaQ7[5], // Penúltimo: 8
-    listaQ7[4]  // Antepenúltimo: 9
-];
-export const resposta10 = novaLista;
+export const resposta10 = false
 

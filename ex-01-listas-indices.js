@@ -231,7 +231,7 @@ variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 
-let = numeros[0] +
+let soma = numeros[0] +
 numeros[1] +
 numeros[2] +
 numeros[3] +

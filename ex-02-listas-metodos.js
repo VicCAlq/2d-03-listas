@@ -197,7 +197,7 @@ fiquem na frente dos animais inicialmente pertencentes a lista de "vertebrados".
 Envie a lista animais modificada na resposta08.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let jailson = animais.pop();
+let zoologico = animais.pop();
 animais.unshift("zoologico");
 
 zoologico = animais.pop();

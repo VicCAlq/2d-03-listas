@@ -197,9 +197,9 @@ número no índice zero multiplicado pelo item no penúltimo índice.
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-const numeros = [7, 2, 4, 9, 8, 6, 1]
+const numeros = [7, 2, 4, 9, 8, 6, 1];
 
-export const resposta06 = true
+const resposta06 = numeros[0] * numeros[numeros.length - 2];
 
 /* Questão 7
 Seguindo com a lista criada na questão 7, utilizando os índices de cada item,
@@ -208,8 +208,14 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta07 = false
-
+let ultimo = numeros[numeros.length -1]
+numeros[6] = numeros[5]
+numeros[5] = numeros[4]
+numeros[4] = numeros[3]
+numeros[3] = numeros[2]
+numeros[2] = numeros[1]
+numeros[1] = numeros[0]
+numeros[0] = ultimo
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
 da soma de todos os números anteriores da lista. Retorne a lista completa na

@@ -1,9 +1,9 @@
-Data de atualização: Dia 30/03/2026 às 13:23:13
+Data de atualização: Dia 30/03/2026 às 13:55:59
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | sdadadsas is not defined |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | faltaterminar is not defined |
 |  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  2 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  3 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |

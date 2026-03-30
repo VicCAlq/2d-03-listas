@@ -152,6 +152,7 @@ const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta01 = frutas[1]
 
+
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
 o último item da lista. Use a propriedade "length" para auxiliar a encontrar
@@ -173,7 +174,7 @@ Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, 
 envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-frutas[length] = "limão"
+frutas[frutas.length] = "limão"
 export const resposta04 = frutas
 
 /* Questão 5
@@ -204,6 +205,7 @@ variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
 const frutas1 = frutas
+let i = 0
 while (i>=7){
     frutas[i] = frutas1[i-1]
     i++
@@ -216,7 +218,15 @@ da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta08 = false
+let temp1 = 0
+let ii = 0
+while (ii>=7) {
+    frutas[ii] += temp1
+    ii++
+}
+let resultado08 = frutas 
+resultado08[resultado08.length] = temp
+export const resposta08 = resultado08
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:
@@ -226,7 +236,12 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+let resultado09 = frutas
+let temp2 = resultado09[1]
+resultado09[1] = resultado09[3]
+resultado09[3] = resultado09[5]
+resultado09[5] = temp2
+export const resposta09 = resultado09
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
@@ -235,7 +250,9 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
-
+let NovaLista = {}
+NovaLista[0] = frutas[frutas.length-1]
+NovaLista[1] = frutas[frutas.length-2]
+NovaLista[2] = frutas[frutas.length-3]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
-
+export const resposta10 = NovaLista

@@ -197,7 +197,14 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta07 = false
+let ultimo = numeros[numeros.length - 1];
+
+for (let i = numeros.length - 1; i > 0; i--) {
+  numeros[i] = numeros[i - 1];
+}
+numeros[0] = ultimo;
+
+export const resposta07 = numeros;
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
@@ -205,7 +212,12 @@ da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta08 = false
+let soma = 0;
+for (let i = 0; i < numeros.length; i++){
+soma = soma + numeros[i];
+}
+numeros[numeoros.length] = soma
+export const resposta08 = numeros
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:
@@ -215,6 +227,18 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
+let temp1 = numeros[1];
+let temp2 = numeros[3];
+let temp3 = numeros[5];
+
+numeros[3] = temp1;
+numeros[5] = temp2;
+numeros[1] = temp3;
+
+
+
+export const resposta09 = numeros;
+
 export const resposta09 = false
 
 /* Questão 10
@@ -227,4 +251,3 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta10 = false
-

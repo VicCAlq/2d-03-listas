@@ -1,20 +1,7 @@
-Data de atualização: Dia 30/03/2026 às 13:54:11
+Data de atualização: Dia 01/04/2026 às 17:49:57
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | frutas is not defined |
-|  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  2 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  3 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  4 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  5 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  6 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  7 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  8 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  9 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 10 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 11 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 12 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 13 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 14 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Identifier 'resposta09' has already been declared |
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | profissoesRemove is not defined |

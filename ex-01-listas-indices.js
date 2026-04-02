@@ -151,6 +151,7 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 
 // Operações necessárias e resposta a partir da linha abaixo
 export const frutas = ["maçâ", "banana", "laranja", "uva", "pêra", "manga"]; 
+export const resposta01 = frutas[1];
 
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
@@ -244,7 +245,7 @@ numeros[1] = temp3;
 
 
 
-export const resposta09 = false
+export const resposta09 = numeros
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:

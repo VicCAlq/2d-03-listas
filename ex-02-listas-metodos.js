@@ -239,7 +239,12 @@ reverse nessa lista, e após isso use o método push para adicionar os itens
 final na resposta11.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta11 = false
+let pedras = []
+pedras = pedras.concat("quartzo", "basalto", "granito")
+pedras.reverse
+pedras.push("calcário", "mármore", "mica")
+pedras.reverse
+export const resposta11 = pedras
 
 /* Questão 12
 Continuando com a lista criada na questão 11, use o método unshift para adicionar
@@ -248,7 +253,11 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 "ônix" ao final desta lista, e retorne-a na resposta12.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta12 = false
+pedras.unshift("jade")
+pedras.unshift("obsidiana")
+pedras.unshift("zircônio")
+pedras = pedras.concat("topázio", "lazurita", "ônix")
+export const resposta12 = pedras
 
 /* Questão 13
 Seguindo com a lista de pedras, use os métodos shift e pop para mover os três

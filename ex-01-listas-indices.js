@@ -245,7 +245,7 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
-nLista=[1,6,8]
+const nLista=[1,6,8]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta10 = nLista 
 

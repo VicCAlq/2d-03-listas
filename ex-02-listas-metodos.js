@@ -134,7 +134,7 @@ o último item da lista e armazená-lo em uma variável. Envie esta variável na
 resposta02.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let a = profissoes.unshift(profissoes.pop())
+let a = profissoes.pop()
 export const resposta02 = a
 
 /* Questão 3
@@ -152,9 +152,8 @@ na lista de profissões para remover o atual primeiro item da lista e guardá-lo
 nesta variável. Envie a variável com a profissão removida na resposta04.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-profissoes.shift()
-const exPrimeiroItem="programador(a)";
-export const resposta04 = profissoes;
+const exPrimeiroItem=profissoes.shift();
+export const resposta04 = exPrimeiroItem;
 
 /* Questão 5
 Continuando com a lista da questão 1, crie uma lista com as profissões removidas

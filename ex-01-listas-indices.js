@@ -223,7 +223,7 @@ let soma = 0;
 for (let i = 0; i < numeros.length; i++){
 soma = soma + numeros[i];
 }
-numeros[numeoros.length] = soma
+numeros[numeros.length] = soma
 export const resposta08 = numeros
 
 /* Questão 9
@@ -243,8 +243,6 @@ numeros[5] = temp2;
 numeros[1] = temp3;
 
 
-
-export const resposta09 = numeros;
 
 export const resposta09 = false
 

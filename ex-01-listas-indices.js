@@ -150,7 +150,7 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const frutas = ["maçâ", "banana", "laranja", "uva", "pêra", "manga"]; 
+export const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"];
 export const resposta01 = frutas[1];
 
 /* Questão 2
@@ -166,9 +166,9 @@ Continuando com o array criado na questão 1, altere o quarto item da lista para
 a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-
 frutas[3] = "abacaxi";
 export const resposta03 = frutas;
+
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
 envie a lista inteira na variável "resposta04".
@@ -222,10 +222,10 @@ variável "resultado08". É proibido usar métodos de listas e funções.
 // Operações necessárias e resposta a partir da linha abaixo
 let soma = 0;
 for (let i = 0; i < numeros.length; i++){
-soma = soma + numeros[i];
+  soma = soma + numeros[i];
 }
-numeros[numeros.length] = soma
-export const resposta08 = numeros
+numeros[numeros.length] = soma;
+export const resposta08 = numeros;
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:
@@ -243,9 +243,7 @@ numeros[3] = temp1;
 numeros[5] = temp2;
 numeros[1] = temp3;
 
-
-
-export const resposta09 = numeros
+export const resposta09 = numeros;
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
@@ -257,4 +255,3 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta10 = false
-

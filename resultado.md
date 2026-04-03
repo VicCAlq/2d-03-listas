@@ -1,13 +1,22 @@
-Data de atualização: Dia 02/04/2026 às 18:23:03
+Data de atualização: Dia 03/04/2026 às 20:10:38
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | nLista is not defined |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
+| 10 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
-|  2 | Ex 02 | ✅ | ❌ | AssertionError: expected 5 to be type of 'string' |
+|  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
-|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected [ 'administrador(a)', …(4) ] to be type of 'string' |
+|  4 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  5 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  6 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  7 | Ex 02 | ✅ | ✅ | Nenhum erro |

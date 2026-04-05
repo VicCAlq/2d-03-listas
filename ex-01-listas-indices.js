@@ -203,8 +203,12 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-
-export const resposta07 = faltaterminar
+let temp = numeros[numeros.length - 1]; 
+for (let i = numeros.length - 1; i > 0; i--) {
+    numeros[i] = numeros[i - 1]; 
+}
+numeros[0] = temp; 
+export const resposta07 = numeros;
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
@@ -212,8 +216,12 @@ da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
- 
-export const resposta08 = "faltaterminar"
+let soma = 0;
+for (let i = 0; i < numeros.length; i++) {
+    soma += numeros[i]; 
+}
+numeros[numeros.length] = soma; 
+export const resposta08 = numeros;
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:
@@ -242,5 +250,11 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 */
 // Nova lista abaixo
 
-// Operações necessárias e resposta a partir da linha abaixo 
-export const resposta10 = "faltaterminar"
+// Operações necessárias e resposta a partir da linha abaixo
+const listaQ7 = [1, 7, 2, 4, 9, 8, 6];
+const novaLista = [
+    listaQ7[6],
+    listaQ7[5], 
+    listaQ7[4] 
+];
+export const resposta10 = novaLista;

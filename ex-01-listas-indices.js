@@ -252,6 +252,11 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
+const listaNew = [
+  numeros[numeros.length - 1],
+  numeros[numeros.length - 2],
+ numeros[numeros.length - 3]
 
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+]
+// Operações necessárias e resposta a psartir da linha abaixo
+export const resposta10 = listaNew

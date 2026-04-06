@@ -239,8 +239,6 @@ numeros[1] = temp3;
 
 export const resposta09 = numeros;
 
-export const resposta09 = false
-
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O primeiro item da nova lista é o último da anterior

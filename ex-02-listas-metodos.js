@@ -241,9 +241,9 @@ final na resposta11.
 // Operações necessárias e resposta a partir da linha abaixo
 let pedras = []
 pedras = pedras.concat("quartzo", "basalto", "granito")
-pedras.reverse
+pedras.reverse()
 pedras.push("calcário", "mármore", "mica")
-pedras.reverse
+pedras.reverse()
 export const resposta11 = pedras
 
 /* Questão 12
@@ -265,12 +265,17 @@ primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta13 = false
+pedras.push(pedras.shift(), pedras.shift(), pedras.shift())
+pedras.reverse()
+export const resposta13 = pedras
 
 /* Questão 14
 Finalizando com a lista de pedras, use o método pop para remover os 6 itens finais
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta14 = false
+let pedrasRemovidas = []
+pedrasRemovidas = pedrasRemovidas.concat(pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop())
+console.log(pedrasRemovidas)
+export const resposta14 = pedrasRemovidas
 

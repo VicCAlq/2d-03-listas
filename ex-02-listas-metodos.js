@@ -131,7 +131,7 @@ resposta02.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 let ItemRemovido1 = profissoes.pop()
-export const resposta02 = ItemRemovido
+export const resposta02 = ItemRemovido1
 
 /* Questão 3
 Seguindo com a mesma lista de profissões da questão 1, use o método unshift
@@ -149,7 +149,7 @@ nesta variável. Envie a variável com a profissão removida na resposta04.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 let ItemRemovido2 = profissoes.shift()
-export const resposta04 = ItemRemovido
+export const resposta04 = ItemRemovido2
 
 /* Questão 5
 Continuando com a lista da questão 1, crie uma lista com as profissões removidas

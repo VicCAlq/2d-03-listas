@@ -1,4 +1,4 @@
-Data de atualização: Dia 05/04/2026 às 21:22:48
+Data de atualização: Dia 07/04/2026 às 14:58:46
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
@@ -25,5 +25,5 @@ Data de atualização: Dia 05/04/2026 às 21:22:48
 | 10 | Ex 02 | ✅ | ✅ | Nenhum erro |
 | 11 | Ex 02 | ✅ | ✅ | Nenhum erro |
 | 12 | Ex 02 | ✅ | ✅ | Nenhum erro |
-| 13 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 14 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 13 | Ex 02 | ✅ | ✅ | Nenhum erro |
+| 14 | Ex 02 | ✅ | ✅ | Nenhum erro |

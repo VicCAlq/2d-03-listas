@@ -1,4 +1,4 @@
-Data de atualização: Dia 07/04/2026 às 15:03:39
+Data de atualização: Dia 08/04/2026 às 14:17:03
  
 
 | Aluno | Qtd. questões acertadas (de 17) | Nota total |
@@ -13,7 +13,7 @@ Data de atualização: Dia 07/04/2026 às 15:03:39
 | Bernardo Cavalcanti (bernardoCavalcanti67) | 4 | 27.06 |
 | Bernardo Cavalcanti (bernardo-nascimento-nave) | 0 | 0.00 |
 | Bianca Beatriz (bianca-beatriz-nave) | 10 | 58.82 |
-| Brendha Priscilla (brendha-priscilla-nave) | 19 | 100.00 |
+| Brendha Priscilla (brendha-priscilla-nave) | 24 | 100.00 |
 | Breno Cavalcanti (Breno-Cavalcanti-Nave) | 0 | 0.00 |
 | Breno Costa (Breno-Costa-Nave) | 14 | 82.35 |
 | Caio BrandaoCbs (caiobrandao-cbs) | 0 | 0.00 |

@@ -204,7 +204,6 @@ Envie a lista animais modificada na resposta08.
 animais.pop()
 animais.pop()
 animais.pop()
-c(animais)
 animais.unshift("polvo", "formiga" , "caranguejo")
 export const resposta08 = animais
 

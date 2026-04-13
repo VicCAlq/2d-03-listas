@@ -1,4 +1,4 @@
-Data de atualização: Dia 13/04/2026 às 00:59:30
+Data de atualização: Dia 13/04/2026 às 13:41:01
  
 
 | Aluno | Qtd. questões acertadas (de 17) | Nota total |
@@ -18,9 +18,9 @@ Data de atualização: Dia 13/04/2026 às 00:59:30
 | Breno Costa (Breno-Costa-Nave) | 14 | 82.35 |
 | Caio BrandaoCbs (caiobrandao-cbs) | 0 | 0.00 |
 | Caio Brandao (caio-brandao-nave) | 0 | 0.00 |
-| Caua Rafael (caua-rafael-nave) | 10 | 58.82 |
+| Caua Rafael (caua-rafael-nave) | 21 | 100.00 |
 | Clarice Vitoria (clarice-vitoria-nave) | 24 | 100.00 |
-| David Luduvico (David-luduvico-nave) | 10 | 61.18 |
+| David Luduvico (David-luduvico-nave) | 8 | 49.41 |
 | Davi Emmanuel (Davi1008) | 24 | 100.00 |
 | Eduardo Crisriano (eduardo-cristiano-nave) | 8 | 49.41 |
 | Emilly Maciel (emilly-maciel-nave26) | 10 | 58.82 |
@@ -36,7 +36,7 @@ Data de atualização: Dia 13/04/2026 às 00:59:30
 | João Gomes (joaogomes-ctrl) | 0 | 0.00 |
 | Kaique Alex (kaique-alex-nave) | 14 | 82.35 |
 | Kaylane Marinho (Kaylane-Marinho-nave) | 14 | 82.35 |
-| Lívia Barros (livia-barros-nave) | 9 | 56.47 |
+| Lívia Barros (livia-barros-nave) | 7 | 44.71 |
 | Luanna Carla (Luanna-Carla-nave) | 18 | 100.00 |
 | Maria Helena (Maria-Helena-Nave) | 0 | 0.00 |
 | Matheus Guilherme (Matheus-Guilherme-nave) | 0 | 0.00 |

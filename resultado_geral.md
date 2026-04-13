@@ -1,4 +1,4 @@
-Data de atualização: Dia 12/04/2026 às 23:35:46
+Data de atualização: Dia 13/04/2026 às 00:59:30
  
 
 | Aluno | Qtd. questões acertadas (de 17) | Nota total |
@@ -23,7 +23,7 @@ Data de atualização: Dia 12/04/2026 às 23:35:46
 | David Luduvico (David-luduvico-nave) | 10 | 61.18 |
 | Davi Emmanuel (Davi1008) | 24 | 100.00 |
 | Eduardo Crisriano (eduardo-cristiano-nave) | 8 | 49.41 |
-| Emilly Maciel (emilly-maciel-nave26) | 0 | 0.00 |
+| Emilly Maciel (emilly-maciel-nave26) | 10 | 58.82 |
 | Gabriel Cavalcanti (gabrielcavalcanti-16) | 0 | 0.00 |
 | Gabriel Cavalcanti (gabriel-cavalcanti-nave) | 17 | 100.00 |
 | Gabriel Leal (Gabriel-Leal-Nave) | 21 | 100.00 |
@@ -32,12 +32,12 @@ Data de atualização: Dia 12/04/2026 às 23:35:46
 | Heytor Eloy (heytor-eloy-nave) | 18 | 100.00 |
 | Imael Isaque (Imael-isaque-nave) | 18 | 100.00 |
 | Jailson Ferreira (Jailson-Ferreira-nave) | 24 | 100.00 |
-| Jennifer Marielle (jennifer-marielle-nave) | 0 | 0.00 |
+| Jennifer Marielle (jennifer-marielle-nave) | 18 | 100.00 |
 | João Gomes (joaogomes-ctrl) | 0 | 0.00 |
 | Kaique Alex (kaique-alex-nave) | 14 | 82.35 |
 | Kaylane Marinho (Kaylane-Marinho-nave) | 14 | 82.35 |
 | Lívia Barros (livia-barros-nave) | 9 | 56.47 |
-| Luanna Carla (Luanna-Carla-nave) | 0 | 0.00 |
+| Luanna Carla (Luanna-Carla-nave) | 18 | 100.00 |
 | Maria Helena (Maria-Helena-Nave) | 0 | 0.00 |
 | Matheus Guilherme (Matheus-Guilherme-nave) | 0 | 0.00 |
 | Michel Nascimento Nave (michelnascimento-nave) | 0 | 0.00 |

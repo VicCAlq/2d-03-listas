@@ -120,7 +120,7 @@ envie a lista com as profissões adicionadas na resposta01.
 */
 // Array na linha abaixo
 let profissoes = []
-profissoes.push("programador(a)", "designer", "engenheiro(a)", "veterinário(a)", "administrador(a)")
+profissoes.push("programador(a)", "designer","engenheiro(a)", "veterinário(a)", "administrador(a)")
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta01 = profissoes
 

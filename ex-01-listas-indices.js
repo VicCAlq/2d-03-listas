@@ -246,6 +246,13 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
+let novaLista = []
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+const ultimo = numeros.length - 1
+const penultimo = numeros.length - 2
+const antepenultimo = numeros.length - 3
+
+novaLista = [ultimo, penultimo, antepenultimo]
+
+export const resposta10 = novaLista

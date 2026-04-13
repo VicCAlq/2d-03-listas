@@ -1,4 +1,4 @@
-Data de atualização: Dia 09/04/2026 às 20:26:18
+Data de atualização: Dia 12/04/2026 às 23:35:46
  
 
 | Aluno | Qtd. questões acertadas (de 17) | Nota total |
@@ -31,17 +31,17 @@ Data de atualização: Dia 09/04/2026 às 20:26:18
 | Gustavo Henrique (gustavo-henrique-NAVE) | 24 | 100.00 |
 | Heytor Eloy (heytor-eloy-nave) | 18 | 100.00 |
 | Imael Isaque (Imael-isaque-nave) | 18 | 100.00 |
-| Jailson Ferreira (Jailson-Ferreira-nave) | 2 | 12.94 |
-| Jennifer Marielle (jennifer-marielle-nave) | 18 | 100.00 |
+| Jailson Ferreira (Jailson-Ferreira-nave) | 24 | 100.00 |
+| Jennifer Marielle (jennifer-marielle-nave) | 0 | 0.00 |
 | João Gomes (joaogomes-ctrl) | 0 | 0.00 |
 | Kaique Alex (kaique-alex-nave) | 14 | 82.35 |
-| Kaylane Marinho (Kaylane-Marinho-nave) | 0 | 0.00 |
+| Kaylane Marinho (Kaylane-Marinho-nave) | 14 | 82.35 |
 | Lívia Barros (livia-barros-nave) | 9 | 56.47 |
 | Luanna Carla (Luanna-Carla-nave) | 0 | 0.00 |
 | Maria Helena (Maria-Helena-Nave) | 0 | 0.00 |
 | Matheus Guilherme (Matheus-Guilherme-nave) | 0 | 0.00 |
 | Michel Nascimento Nave (michelnascimento-nave) | 0 | 0.00 |
-| Miguel Angelo (miguel-angelo-nave) | 8 | 48.24 |
+| Miguel Angelo (miguel-angelo-nave) | 20 | 100.00 |
 | Pedro Carvalho (Pedro-Carvalho-Nave) | 24 | 100.00 |
 | Rianna Lavinia (Rianna-Lavinia-Nave) | 0 | 0.00 |
 | Samuel Assuncao (samuel-assuncao-nave) | 24 | 100.00 |

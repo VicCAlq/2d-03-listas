@@ -184,10 +184,10 @@ dentro de si, nesta exata ordem, e retorne esta lista na resposta07.
 // Operações necessárias e resposta a partir da linha 
 let vertebrados = []
 let invertebrados = []
-let animais = []
+let listaAnimais = []
 vertebrados.push("elefante", "leopardo", "porco-espinho")
 invertebrados.push("polvo", "formiga","caranguejo")
-animais.concat( vertebrados, invertebrados)
+listaAnimais.concat( vertebrados, invertebrados)
 export const resposta07 = animais
 
 /* Questão 8

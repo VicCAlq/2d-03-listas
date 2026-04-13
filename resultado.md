@@ -1,21 +1,8 @@
-Data de atualização: Dia 09/04/2026 às 20:20:48
+Data de atualização: Dia 12/04/2026 às 23:28:55
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 | ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Parse failure: Expected a semicolon
 At file: /ex-01-listas-indices.js:175:32 |
-|  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  2 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  3 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  4 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  5 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  6 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  7 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  8 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  9 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 10 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 11 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 12 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 13 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 14 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | vertebrados is not defined |
